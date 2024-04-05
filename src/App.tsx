@@ -1,8 +1,10 @@
+import SearchBtn from "./Components/SearchBtn/SearchBtn";
+import "./App.scss";
+
 function App() {
   return (
     <>
-      <h1>Hello, world!</h1>
-      <p>😈 Welcome to MY EMPIRE 😈</p>
+      <SearchBtn />
     </>
   );
 }
