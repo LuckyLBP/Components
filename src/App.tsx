@@ -2,6 +2,7 @@ import React from "react";
 import SearchBtn from "./Components/SearchBtn/SearchBtn";
 import "./App.scss";
 import MeatballMenu from "./Components/meatballMenu/MeatballMenu";
+import { DragAndDrop } from "./Components/DragDrop/DragAndDrop";
 
 function App() {
   const handleSearch = () => {
@@ -23,6 +24,7 @@ function App() {
         onKeyPress={handleKeyPress}
       />
       <MeatballMenu />
+      <DragAndDrop />
     </>
   );
 }
