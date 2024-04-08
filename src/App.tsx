@@ -1,6 +1,7 @@
 import React from "react";
 import SearchBtn from "./Components/SearchBtn/SearchBtn";
 import "./App.scss";
+import MeatballMenu from "./Components/meatballMenu/MeatballMenu";
 
 function App() {
   const handleSearch = () => {
@@ -21,6 +22,7 @@ function App() {
         onSearch={handleSearch}
         onKeyPress={handleKeyPress}
       />
+      <MeatballMenu />
     </>
   );
 }
