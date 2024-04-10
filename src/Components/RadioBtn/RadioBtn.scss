@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+    .radioBtns {
+      display: flex;
+      gap: 10px;
+  
+      input[type="radio"] {
+        display: none;
+      }
+  
+      label {
+        cursor: pointer;
+      }
+
+      label:hover {
+        font-weight: bold;
+      }
+      input[type="radio"] + label {
+        color: grey;
+      }
+  
+      input[type="radio"]:checked + label {
+        font-weight: bold;
+        color: white;
+      }
+    }
+  }
+  
